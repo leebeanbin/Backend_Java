@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"1bebeb0c3bcd5238","type":"text","text":"Stored Data","x":200,"y":0,"width":250,"height":60,"color":"3"},
+		{"id":"05ebdb293e2cf3d8","type":"text","text":"Operational Data","x":200,"y":80,"width":250,"height":60,"color":"3"},
+		{"id":"d4230910c59e82aa","type":"text","text":"데이터베이스는 중복성을 허용하지 않기 때문에 중복을 최소화하고 통제가 가능한 중복만을 허용해야 한다.","x":529,"y":-140,"width":250,"height":118,"color":"4"},
+		{"id":"33b7d3449a7756fc","type":"text","text":"Shared Data","x":200,"y":-240,"width":250,"height":60,"color":"3"},
+		{"id":"57c6ee85fc1a1f4a","type":"text","text":"데이터베이스는 다른 사용자들을 함께 고려한 형태여야 한다.","x":529,"y":-260,"width":250,"height":100,"color":"4"},
+		{"id":"b5e325dec9dbe029","type":"text","text":"Integrated Data","x":200,"y":-111,"width":250,"height":60,"color":"3"},
+		{"id":"3a9fb5748d6eb343","type":"text","text":"데이터베이스에 컴퓨터가 접근할 수 있고 지속적으로 운영이 되고 유지되어야 한다.","x":529,"y":6,"width":250,"height":109,"color":"4"},
+		{"id":"8d295551b5effc17","type":"text","text":"데이터베이스","x":-135,"y":-81,"width":200,"height":55,"color":"3"}
+	],
+	"edges":[
+		{"id":"e205b8c33179836a","fromNode":"1bebeb0c3bcd5238","fromSide":"right","toNode":"3a9fb5748d6eb343","toSide":"left","color":"1"},
+		{"id":"50c85aa7856ac2ff","fromNode":"05ebdb293e2cf3d8","fromSide":"right","toNode":"3a9fb5748d6eb343","toSide":"left","color":"1"},
+		{"id":"3fcee17b2ff75a67","fromNode":"b5e325dec9dbe029","fromSide":"right","toNode":"d4230910c59e82aa","toSide":"left","color":"1"},
+		{"id":"67858ad4185e5152","fromNode":"33b7d3449a7756fc","fromSide":"right","toNode":"57c6ee85fc1a1f4a","toSide":"left","color":"1"},
+		{"id":"7b4d608e26e41bb3","fromNode":"8d295551b5effc17","fromSide":"right","toNode":"33b7d3449a7756fc","toSide":"left","color":"1"},
+		{"id":"a53425a0152249cd","fromNode":"8d295551b5effc17","fromSide":"right","toNode":"b5e325dec9dbe029","toSide":"left","color":"1"},
+		{"id":"b70e1b3dbe57e2d5","fromNode":"8d295551b5effc17","fromSide":"right","toNode":"1bebeb0c3bcd5238","toSide":"left","color":"1"},
+		{"id":"fb2e1c37651edd64","fromNode":"8d295551b5effc17","fromSide":"right","toNode":"05ebdb293e2cf3d8","toSide":"left","color":"1"}
+	]
+}
